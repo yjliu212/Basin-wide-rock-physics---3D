@@ -2,7 +2,7 @@
 
 
 
-This Jupyter notebook extends the Rock Physics Template (RPT) calculation from 1D to 3D.
+This Jupyter notebook extends the Rock Physics Template (RPT) calculation from 1D to 3D: [RPT_3D_2.ipynb](/RPT_3D_2.ipynb)
 
 Description:
 
