@@ -8,7 +8,7 @@ Description:
 
 In this notebook, we create a small 3D model grid filled with a rock physics template (RPT) for both shale and sand. The model includes a sand body containing gas and oil, with distinct gas-oil-contact (GOC) and oil-water-contact (OWC) visible within the sand body.
 
-We first use Dutta’s model to calculate the 3D RPT for shale as a function of various pore pressure gradients, ranging from hydrostatic conditions (9 ppg) to 17 ppg. These calculations form the background velocity model for the shale.
+We first use Dutta’s model to calculate the 3D RPT for shale as a function of various pore pressure gradients, ranging from hydrostatic conditions (8.6 ppg) and 9 ppg to 17 ppg. These calculations form the background velocity model for the shale.
 
 Next, we apply the Raymer-Hunt-Gardner (RHG) model to compute the 3D sand properties, varying the clay volume (Vclay) from 0% to 100%, with the pore fluid initially saturated with water. Then, using Gassmann’s equation for fluid substitution, we replace the pore fluid with gas and oil and apply these changes to the sand body.
 
