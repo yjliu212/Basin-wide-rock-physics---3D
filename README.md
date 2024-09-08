@@ -14,7 +14,7 @@ Next, we apply the Raymer-Hunt-Gardner (RHG) model to compute the 3D sand proper
 
 Finally, the 3D rock properties such as Vp (P-wave velocity), Ip (Acoustic Impedance), Pr (Poisson's Ratio), and Density are computed, reflecting the characteristics of the sand body and its fluid content.
 
-The figures below show the 3D lithology and fluid model and the extracted profiles at the well location.
+The figures below show the 3D lithology and fluid model and the extracted profiles at the well location. Here lithology = 1 represents sand, and lithology = 0 represents shale, and fluid = 2 represents gas, fluid = 1 represents oil and fluid = 0 represents water.
 ![image](https://github.com/user-attachments/assets/9d727591-084e-4577-865f-e28041ce7b84)
 ![image](https://github.com/user-attachments/assets/9f4f7df9-10ae-4fd2-8a7f-1ffb2ab4115d)
 ![image](https://github.com/user-attachments/assets/0ae3e22c-8ab4-4921-ad44-903f06a864e3)
