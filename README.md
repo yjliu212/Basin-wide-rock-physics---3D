@@ -49,5 +49,10 @@ In this case, the AVO anomaly is still class III due to lower Ip and low Pr at g
 In this case, a class II AVO anomaly (polarity reversal) shows up due to higher Ip at gas sand top, Pr remains low at gas sand top showing a strong Pr anomaly.
 ![image](https://github.com/user-attachments/assets/c8238254-7af0-4f78-a222-4e493867c4b0)
 
+Continue increase ppg_index will lead to shale Ip to decrease, therefore, AVO anomaly move to class I.
+More modeling senarios can be carried out, such as:
+1. What would happen if replace gas at the top of the reservoir by oil or water?
+2. Are flat spot due to OWC or GOC always exist?
+
 The stack usually contains a flat spot due to the gas-oil-contact or the oil-water-contact:
 ![image](https://github.com/user-attachments/assets/01d72c7b-8bc7-4d02-8a7c-c46c45954ccc)
