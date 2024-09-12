@@ -42,11 +42,5 @@ Below we show a few example of different combinations of ppg and vclay index.
 1. ppg = 1, vclay = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%
 The resulting AVO response is shown as below:
 ![image](https://github.com/user-attachments/assets/274247f5-8f50-494a-b0d2-2219c7ba0d74)
-
-An class III AVO anomaly is shown up.
-3. ppg = 3, vclay = 3: meaning pore pressure gradient is 11 ppg, and vclay = 30%
-The resulting AVO response is shown as below:
-![image](https://github.com/user-attachments/assets/02e3b423-33d1-4cba-ae16-06d14185d990)
-
 The stack shows a flat spot due to the oil-water contact:
 ![image](https://github.com/user-attachments/assets/01d72c7b-8bc7-4d02-8a7c-c46c45954ccc)
