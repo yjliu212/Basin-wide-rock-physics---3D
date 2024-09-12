@@ -39,7 +39,7 @@ Depends on the shale index (controled by ppg) and sand index (controled by vclay
 
 Below we show a few example of different combinations of ppg and vclay index.
 
-1. ppg = 1, vclay = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%
+1. ppg_index = 1, vclay_index = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%
 The resulting AVO response is shown as below:
 ![image](https://github.com/user-attachments/assets/274247f5-8f50-494a-b0d2-2219c7ba0d74)
 The stack shows a flat spot due to the gas-oil-contact and the oil-water-contact:
