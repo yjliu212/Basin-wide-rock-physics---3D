@@ -34,3 +34,18 @@ The figures below show the Vp and Density models with sand body saturated by gas
 The figures below show the extracted Ip and Pr at well location. The Pr anoamly for gas and oil saturated zone is apperant.
 ![image](https://github.com/user-attachments/assets/d45042b3-fc8f-48b6-9781-7fb2ba8cc3ec)
 ![image](https://github.com/user-attachments/assets/9eea8e35-5651-4fad-933a-eca73a9baa90)
+
+Depends on the shale index (controled by ppg) and sand index (controled by vclay), the resulting rock properties will be different lead to different AVO response.
+
+Below we show a few example of different combinations of ppg and vclay index.
+
+1. ppg = 1, vclay = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%
+The resulting AVO response is shown as below:
+![image](https://github.com/user-attachments/assets/0ff8f22b-02d3-4f86-be3c-69523ed4fefe)
+An class III AVO anomaly is shown up.
+2. ppg = 3, vclay = 3: meaning pore pressure gradient is 11 ppg, and vclay = 30%
+The resulting AVO response is shown as below:
+![image](https://github.com/user-attachments/assets/02e3b423-33d1-4cba-ae16-06d14185d990)
+
+The stack shows a flat spot due to the oil-water contact:
+![image](https://github.com/user-attachments/assets/01d72c7b-8bc7-4d02-8a7c-c46c45954ccc)
