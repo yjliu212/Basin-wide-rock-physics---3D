@@ -41,7 +41,7 @@ Below we show a few example of different combinations of ppg and vclay index.
 
 1. ppg_index = 1, vclay_index = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%.
 The resulting AVO response is shown as below: A class III AVO anomaly due to low Ip and low Pr at gas sand top.
-![image](https://github.com/user-attachments/assets/274247f5-8f50-494a-b0d2-2219c7ba0d74)
+![image](https://github.com/user-attachments/assets/601e8f99-8780-42d2-a67d-19d52ac0111d)
 2. ppg_index = 0, vclay_index = 0: meaning pore pressure gradient is hydrostatic, and vclay = 0%.
 The resulting AVO response is shown as below: A class II AVO anomaly due to high IP and low Pr at gas sand top.
 ![image](https://github.com/user-attachments/assets/c8238254-7af0-4f78-a222-4e493867c4b0)
