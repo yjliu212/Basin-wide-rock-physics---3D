@@ -46,7 +46,7 @@ The resulting AVO response is shown as below: A class III AVO anomaly due to low
 In this case, the AVO anomaly is still class III due to lower Ip and low Pr at gas sand top.
 ![image](https://github.com/user-attachments/assets/f125559e-5034-4f4e-a940-cbaf6e3235d4)
 3. ppg_index = 0, vclay_index = 0: meaning pore pressure gradient is hydrostatic, and vclay = 0%.
-In this case, a class II AVO anomaly shows up due to higher Ip at gas sand top, Pr remains low at gas sand top showing a strong Pr anomaly.
+In this case, a class II AVO anomaly (polarity reversal) shows up due to higher Ip at gas sand top, Pr remains low at gas sand top showing a strong Pr anomaly.
 ![image](https://github.com/user-attachments/assets/c8238254-7af0-4f78-a222-4e493867c4b0)
 
 The stack usually contains a flat spot due to the gas-oil-contact or the oil-water-contact:
