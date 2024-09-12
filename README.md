@@ -42,12 +42,12 @@ Below we show a few example of different combinations of ppg and vclay index.
 1. ppg_index = 1, vclay_index = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%.
 The resulting AVO response is shown as below: A class III AVO anomaly due to low Ip and low Pr at gas sand top.
 ![image](https://github.com/user-attachments/assets/601e8f99-8780-42d2-a67d-19d52ac0111d)
-2. ppg_index = 0, vclay_index = 0: meaning pore pressure gradient is hydrostatic, and vclay = 0%.
-The resulting AVO response is shown as below: A class II AVO anomaly due to high IP and low Pr at gas sand top.
-![image](https://github.com/user-attachments/assets/c8238254-7af0-4f78-a222-4e493867c4b0)
-3. ppg_index = 0, vclay_index = 1: meaning pore pressure gradient is hydrostatic, and vclay = 10%.
-In this case, the AVO anomaly goes back to class III due to lower Ip and low Pr at gas sand top.
+2. ppg_index = 0, vclay_index = 1: meaning pore pressure gradient is hydrostatic, and vclay = 10%.
+In this case, the AVO anomaly is still class III due to lower Ip and low Pr at gas sand top.
 ![image](https://github.com/user-attachments/assets/f125559e-5034-4f4e-a940-cbaf6e3235d4)
+3. ppg_index = 0, vclay_index = 0: meaning pore pressure gradient is hydrostatic, and vclay = 0%.
+In this case, a class II AVO anomaly shows up due to higher Ip at gas sand top, Pr remains low at gas sand top showing a strong Pr anomaly.
+![image](https://github.com/user-attachments/assets/c8238254-7af0-4f78-a222-4e493867c4b0)
 
 The stack usually contains a flat spot due to the gas-oil-contact or the oil-water-contact:
 ![image](https://github.com/user-attachments/assets/01d72c7b-8bc7-4d02-8a7c-c46c45954ccc)
