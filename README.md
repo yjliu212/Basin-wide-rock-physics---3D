@@ -35,7 +35,7 @@ The figures below show the extracted Ip and Pr at well location. The Pr anoamly 
 ![image](https://github.com/user-attachments/assets/d45042b3-fc8f-48b6-9781-7fb2ba8cc3ec)
 ![image](https://github.com/user-attachments/assets/9eea8e35-5651-4fad-933a-eca73a9baa90)
 
-Depends on the shale index (controled by ppg) and sand index (controled by vclay), the resulting rock properties will be different lead to different AVO response.
+Depends on the shale index (controled by ppg) and sand index (controled by vclay), the resulting rock properties will be different and lead to different AVO response.
 
 Below we show a few example of different combinations of ppg and vclay index.
 
