@@ -36,7 +36,7 @@ The figures below illustrate the Vp and Density models, with the sand body satur
 ![image](https://github.com/user-attachments/assets/bcd50b9f-28ab-467a-809d-ccc5c4d92af1)
 ![image](https://github.com/user-attachments/assets/411dfeeb-3d3a-4fbb-a1c2-3bb260f42847)
 
-The figures below show the extracted Ip and Pr at the well location. The Pr anomaly in the gas and oil-saturated zone is apparent.
+The figures below show the extracted Ip and Pr from the model with pressure = 9 ppg and Vclay = 20%, at the well location. The Pr anomaly in the gas and oil-saturated zone is apparent.
 ![image](https://github.com/user-attachments/assets/d45042b3-fc8f-48b6-9781-7fb2ba8cc3ec)
 ![image](https://github.com/user-attachments/assets/9eea8e35-5651-4fad-933a-eca73a9baa90)
 
