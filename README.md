@@ -6,54 +6,48 @@ This Jupyter notebook extends the Rock Physics Template (RPT) calculation from 1
 
 Description:
 
-In this notebook, we create a small 3D model grid filled with a rock physics template (RPT) for both shale and sand. The model includes a sand body containing gas and oil, with distinct gas-oil-contact (GOC) and oil-water-contact (OWC) visible within the sand body.
+In this notebook, we build a 3D model grid populated with a rock physics template (RPT) for both shale and sand. The model includes a sand body containing gas and oil, with clearly defined gas-oil-contact (GOC) and oil-water-contact (OWC) within the sand body.
 
-We first use Dutta’s model to calculate the 3D RPT for shale as a function of various pore pressure gradients, ranging from hydrostatic conditions (8.6 ppg) and 9 ppg to 17 ppg. These calculations form the background velocity model for the shale.
+First, we utilize Dutta’s model to compute the 3D RPT for shale based on varying pore pressure gradients, from hydrostatic conditions (8.6 ppg) up to 17 ppg. This creates the background velocity model for the shale.
 
-Next, we apply the Raymer-Hunt-Gardner (RHG) model to compute the 3D sand properties, varying the clay volume (Vclay) from 0% to 100%, with the pore fluid initially saturated with water. Then, using Gassmann’s equation for fluid substitution, we replace the pore fluid with gas and oil and apply these changes to the sand body.
+Next, we use the Raymer-Hunt-Gardner (RHG) model to calculate the 3D sand properties, varying the clay volume (Vclay) between 0% and 100%, with the pore fluid initially saturated with water. We then apply Gassmann’s equation for fluid substitution to replace the pore fluid with gas and oil, applying these changes to the sand body.
 
-Finally, the 3D rock properties such as Vp (P-wave velocity), Ip (Acoustic Impedance), Pr (Poisson's Ratio), and Density are computed, reflecting the characteristics of the sand body and its fluid content.
+Finally, we compute the 3D rock properties such as Vp (P-wave velocity), Ip (Acoustic Impedance), Pr (Poisson's Ratio), and Density, capturing the characteristics of the sand body and its fluid content.
 
-The figures below show the 3D lithology and fluid model and the extracted profiles at the well location. Here lithology = 1 represents sand, and lithology = 0 represents shale, and fluid = 2 represents gas, fluid = 1 represents oil and fluid = 0 represents water.
-
+The figures below present the 3D lithology and fluid model, along with extracted profiles at the well location. Here, lithology = 1 represents sand, lithology = 0 represents shale, fluid = 2 represents gas, fluid = 1 represents oil, and fluid = 0 represents water.
 ![image](https://github.com/user-attachments/assets/9d727591-084e-4577-865f-e28041ce7b84)
 ![image](https://github.com/user-attachments/assets/9f4f7df9-10ae-4fd2-8a7f-1ffb2ab4115d)
 ![image](https://github.com/user-attachments/assets/0ae3e22c-8ab4-4921-ad44-903f06a864e3)
 
-The figures below show the hydrostatic velocity model and 12 ppg velocity model in 3D and the extracted velocity profiles from the 3D RPT ranging from hydrostatic, 9 ppg to 17 ppg.
-
+The figures below display the 3D hydrostatic velocity model and the 12 ppg velocity model, along with the extracted velocity profiles from the 3D RPT, covering a range from hydrostatic conditions to 9 ppg and up to 17 ppg.
 ![image](https://github.com/user-attachments/assets/c1f692a8-9018-428b-be94-7780bd833d57)
 ![image](https://github.com/user-attachments/assets/93108398-cf2e-4c7a-9263-7e45d64d469b)
 ![image](https://github.com/user-attachments/assets/54a18499-7a47-4b87-acde-694f75db9f9e)
 
-The figures below show the Vp and Density models with sand body saturated by gas and oil.
-
+The figures below illustrate the Vp and Density models, with the sand body saturated by gas and oil.
 ![image](https://github.com/user-attachments/assets/bcd50b9f-28ab-467a-809d-ccc5c4d92af1)
 ![image](https://github.com/user-attachments/assets/411dfeeb-3d3a-4fbb-a1c2-3bb260f42847)
 
-The figures below show the extracted Ip and Pr at well location. The Pr anoamly for gas and oil saturated zone is apperant.
+The figures below show the extracted Ip and Pr at the well location. The Pr anomaly in the gas and oil-saturated zone is apparent.
 ![image](https://github.com/user-attachments/assets/d45042b3-fc8f-48b6-9781-7fb2ba8cc3ec)
 ![image](https://github.com/user-attachments/assets/9eea8e35-5651-4fad-933a-eca73a9baa90)
 
-Depends on the shale index (controled by ppg) and sand index (controled by vclay), the resulting rock properties will be different and lead to different AVO response.
+Depending on the shale index (controlled by ppg) and the sand index (controlled by Vclay), the resulting rock properties will vary, leading to different AVO responses.
 
-Below we show a few example of different combinations of ppg and vclay index.
+Below are examples of different combinations of ppg and Vclay indices:
 
-1. ppg_index = 1, vclay_index = 2: meaning pore pressure gradient is 9 ppg, and vclay = 20%.
-The resulting AVO response is shown as below: A class III AVO anomaly due to low Ip and low Pr at gas sand top.
+1. ppg_index = 1, Vclay_index = 2: This indicates a pore pressure gradient of 9 ppg and a Vclay of 20%. The resulting AVO response is shown below, displaying a Class III AVO anomaly due to the low Ip and low Pr at the top of the gas sand.
 ![image](https://github.com/user-attachments/assets/601e8f99-8780-42d2-a67d-19d52ac0111d)
-2. ppg_index = 0, vclay_index = 1: meaning pore pressure gradient is hydrostatic, and vclay = 10%.
-In this case, the AVO anomaly is still class III due to lower Ip and low Pr at gas sand top.
+2. ppg_index = 0, Vclay_index = 1: This represents a hydrostatic pore pressure gradient and a Vclay of 10%. In this scenario, the AVO anomaly remains Class III due to the lower Ip and Pr at the top of the gas sand.
 ![image](https://github.com/user-attachments/assets/f125559e-5034-4f4e-a940-cbaf6e3235d4)
-3. ppg_index = 0, vclay_index = 0: meaning pore pressure gradient is hydrostatic, and vclay = 0%.
-In this case, a class II AVO anomaly (polarity reversal) shows up due to higher Ip at gas sand top, Pr remains low at gas sand top showing a strong Pr anomaly.
+3. ppg_index = 0, Vclay_index = 0: This indicates a hydrostatic pore pressure gradient with a Vclay of 0%. In this case, a Class II AVO anomaly (polarity reversal) appears due to the higher Ip at the top of the gas sand. The Pr remains low at the gas sand top, showing a strong Pr anomaly.
 ![image](https://github.com/user-attachments/assets/c8238254-7af0-4f78-a222-4e493867c4b0)
 
-Continue increase ppg_index will lead to shale Ip to decrease, therefore, AVO anomaly move to class I.
+As the ppg_index increases, the shale Ip decreases, which can cause the AVO anomaly to shift towards Class I.
 
-More modeling senarios can be carried out, such as:
-1. What would happen if replace gas at the top of the reservoir by oil or water?
-2. Are flat spot due to OWC or GOC always exist?
+Additional modeling scenarios to consider include:
 
-The stack usually contains a flat spot due to the gas-oil-contact or the oil-water-contact:
+What happens if gas at the top of the reservoir is replaced by oil or water?
+Do flat spots due to the oil-water contact (OWC) or gas-oil contact (GOC) always exist?
+The stack often shows a flat spot resulting from the gas-oil contact or the oil-water contact:
 ![image](https://github.com/user-attachments/assets/01d72c7b-8bc7-4d02-8a7c-c46c45954ccc)
